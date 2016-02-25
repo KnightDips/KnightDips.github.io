@@ -637,9 +637,18 @@ a:after {
     }
 
         #titlethingy {
-            
+         background-color: blue!important; 
             
         }
+        .basicrulepic{
+            float: right;
+       
+
+        }
+        #greywrap{
+            background-color: blue;
+        }
+
 
 
         
