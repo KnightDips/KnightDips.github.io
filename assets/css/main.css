@@ -632,13 +632,15 @@ a:after {
 	#lol {
 		position: relative;
         font-size: 30px;
-        text
+        
 
     }
 
         #titlethingy {
-         background-color: blue!important; 
-            
+        
+            padding:100px;
+            position: relative:
+            top:100px;
         }
         .basicrulepic{
             float: right;
