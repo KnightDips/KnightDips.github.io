@@ -655,6 +655,10 @@ a:after {
 float: top;
 
         }
+        .left{
+            float: left;
+            text-align: left;
+        }
 
 
 
