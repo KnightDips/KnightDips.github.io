@@ -659,8 +659,14 @@ float: top;
             float: left;
             text-align: left;
         }
+#secdiv1{
+    float: center;
 
+}
 
+#services{
+    background-color:   #F0F8FF;
+}
 
         
 	
