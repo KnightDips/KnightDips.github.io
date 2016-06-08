@@ -1,0 +1,770 @@
+ #IndexBody{
+
+    background-size: cover;
+    background-color: black;
+	font-family: monospace;
+  background-image: url("img/titlescreen.png");
+  overflow: hidden;
+
+}
+
+
+
+/*Stuff below governs the start screen*/
+
+.titleContent {
+	margin: 10% auto;
+    text-align: center;
+}
+
+.splashTitle {
+	color: #800000;
+    font-size: 8em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
+}
+
+.button {
+	border: 5px solid #383838;
+    color: #383838;
+    padding: 20px 50px;
+    font-size: 5em;
+    text-decoration: none;
+    background-color: #abc;
+    box-shadow: 15px 15px 80px #555;
+    position: relative;
+    top:350px;
+}
+  a.button:hover {
+    background-color: #383838;
+    color: #abc;
+  }
+
+
+
+/*Stuff below governs the Explore screen*/
+
+#exploreBody {
+background-color: #0d0d0d;
+width:100%;
+height: 100%;
+overflow: hidden;
+
+
+}
+
+#player {
+  background-color: midnightblue;
+
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;  
+  position: relative;
+  top: 200px;
+  left: 200px;
+  
+}
+
+
+#instructionsBody {
+  background-image: url("img/instructions.png");
+  background-size: 95%;
+}
+
+
+#back {
+  position: absolute;
+  left: 900px;
+  bottom: 150px;
+}
+
+
+#instructionsbutton {
+  border: 5px solid #383838;
+    color: #383838;
+    padding: 20px 50px;
+    font-size: 5em;
+    text-decoration: none;
+    background-color: #abc;
+    position: relative;
+    height: 60px;
+    font-size: 400%;
+    font-family: monospace;
+
+}
+
+
+ a#instructionsbutton:hover {
+    background-color: #383838;
+    color: #abc;
+  }
+
+
+
+.arrow{
+    width: 100px;
+    height: 25px;
+    background-image: url("img/arrow.png");
+    background-size: contain;
+    position: relative;
+    right: 8px;
+    bottom: 35px;
+
+}
+
+
+
+
+.block {
+  background-image: url("img/arrow.png");
+}
+
+
+
+#b {
+    width: 15000px;
+    height: 25px;
+    background-image: url("img/block.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+    position: relative;
+    right: 8px;
+    bottom: 35px;
+}
+
+
+#b2 {
+    width: 15000px;
+    height: 25px;
+    background-image: url("img/block.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+    position: relative;
+    right: 8px;
+    top: 700px;
+}
+
+
+
+
+#lose{
+  background-image: url("img/lose.png");
+    width: 15000px;
+    height: 15000px;
+}
+
+
+
+
+
+
+
+
+
+#stage {
+ position: relative;
+ background-color: #3FF;
+ margin: auto;
+ width: 800px;
+ height: 600px;
+ overflow: hidden;
+}
+#player {
+ background-color: red;
+ position: absolute;
+ width: 25px;
+ height: 25px;
+}
+.platform {
+  position: relative;
+  height: 2px;
+  background-color: #600;
+}
+.onPlatform {
+  background-color: green;
+}
+#ground {
+  top: 448px;
+  left: 250px;
+  width: 300px;
+  z-index: 5;
+}
+#plat1 {
+  top: 375px;
+  left: 150px;
+  width: 100px;
+  z-index: 5;
+}
+#plat2 {
+  top: 300px;
+  left: 350px;
+  width: 100px;
+  z-index: 5;
+}
+#plat3 {
+  top: 275px;
+  left: 200px;
+  width: 100px;
+  z-index: 5;
+}
+#plat4 {
+  top: 190px;
+  left: 75px;
+  width: 100px;
+  z-index: 5;
+}
+#plat5 {
+  top: 175px;
+  left: 450px;
+  width: 100px;
+  z-index: 5;
+}
+#plat6 {
+  top: 125px;
+  left: 600px;
+  width: 100px;
+  z-index: 5;
+}
+#plat7 {
+  top: 75px;
+  left: 150px;
+  width: 100px;
+  z-index: 5;
+}
+#goal {
+  position: absolute;
+  top: 25px;
+  left: 200px;
+  width: 25px;
+  height: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+  z-index: 5;
+}
+
+#lava {
+  position: absolute;
+  background-image: url("img/lava.png");
+  width: 800px;
+  height: 45px;
+  top: 555px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+#stage2 {
+ position: relative;
+ background-color: #00b3b3;
+ margin: auto;
+ width: 800px;
+ height: 600px;
+ overflow: hidden;
+}
+
+.platform2 {
+  position: relative;
+  height: 2px;
+  background-color: #600;
+}
+.onPlatform2 {
+  background-color: green;
+}
+#ground2 {
+  top: 448px;
+  left: 350px;
+  width: 100px;
+  z-index: 5;
+}
+#plat1b {
+  top: 375px;
+  left: 200px;
+  width: 50px;
+  z-index: 5;
+}
+#plat2b {
+  top: 300px;
+  left: 370px;
+  width: 30px;
+  z-index: 5;
+}
+#plat3b {
+  top: 275px;
+  left: 520px;
+  width: 20px;
+  z-index: 5;
+}
+#plat4b {
+  top: 170px;
+  left: 420px;
+  width: 30px;
+  z-index: 5;
+}
+#plat5b {
+  top: 90px;
+  left: 290px;
+  width: 30px;
+  z-index: 5;
+}
+
+#plat7b {
+  top: 50px;
+  left: 85px;
+  width: 50px;
+  z-index: 5;
+}
+#goal2 {
+  position: absolute;
+  top: 15px;
+  left: 100px;
+  width: 25px;
+  height: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+  z-index: 5;
+
+}
+
+#lava2 {
+  position: absolute;
+  background-image: url("img/lava.png");
+  width: 800px;
+  height: 45px;
+  top: 555px;
+
+}
+
+.lavablock {
+  background-image: url("img/lava.png");
+    width: 45px;
+  height: 45px;
+  position: relative;
+
+}
+
+
+#lavablocks2a {
+  position: relative;
+  left: 460px;
+  top: 230px;
+}
+
+#lavablocks2b {
+  position: relative;
+  left: 370px;
+  top: 100px;
+}
+
+
+
+
+
+
+
+
+
+#stage3 {
+ position: relative;
+ background-color: #002b80;
+ margin: auto;
+ width: 800px;
+ height: 600px;
+ overflow: hidden;
+}
+
+.platform3 {
+  position: relative;
+  height: 2px;
+  background-color: #600;
+}
+.onPlatform3 {
+  background-color: green;
+}
+#ground3 {
+  top: 60px;
+  left: 375px;
+  width: 50px;
+  z-index: 5;
+}
+#plat1c {
+  top: 90px;
+  left: 50px;
+  width: 170px;
+  z-index: 5;
+}
+#plat2c {
+  top: 300px;
+  left: 45px;
+  width: 650px;
+  z-index: 5;
+}
+#plat3c {
+  top: 500px;
+  left: 300px;
+  width: 400px;
+  z-index: 5;
+}
+
+#goal3 {
+  position: absolute;
+  top: 450px;
+  left: 140px;
+  width: 25px;
+  height: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+  z-index: 5;
+
+}
+
+#lava3 {
+  position: absolute;
+  background-image: url("img/lava.png");
+  width: 800px;
+  height: 45px;
+  top: 555px;
+
+}
+
+
+
+
+#lavablocks3a {
+  position: relative;
+  top: 30px;
+  left: 290px;
+}
+#lavablocks3b {
+
+  top: 30px;
+  left: 245px;
+}
+
+#lavablocks3c {
+
+  top: -15px;
+  left: 290px;
+}
+
+#lavablocks3d {
+
+  top: -60px;
+  left: 335px;
+}
+
+#lavablocks3e {
+
+  top: -105px;
+  left: 380px;
+}
+
+#lavablocks3f {
+
+  top: -150px;
+  left: 425px;
+}
+
+#lavablocks3g {
+
+  top: 0px;
+  left: 0px;
+}
+
+#lavablocks3h {
+
+  top: -65px;
+  left: 110px;
+}
+
+#lavablocks3i {
+
+  top: -110px;
+  left: 195px;
+}
+
+
+#lavablocks3j {
+
+  top: -155px;
+  left: 300px;
+}
+
+
+#lavablocks3k {
+
+  top: -235px;
+  left: 300px;
+}
+
+
+#lavablocks3l {
+
+  top: -240px;
+  left: 755px;
+}
+
+#lavablocks3m {
+
+  top: -240px;
+  left: 755px;
+}
+
+#lavablocks3n {
+
+  top: -240px;
+  left: 755px;
+}
+
+#lavablocks3o {
+
+  top: -240px;
+  left: 755px;
+}
+
+#lavablocks3p {
+
+  top: -240px;
+  left: 755px;
+}
+
+#lavablocks3q {
+
+  top: -285px;
+  left: 710px;
+}
+
+#lavablocks3r {
+
+  top: -330px;
+  left: 688px;
+}
+
+#lavablocks3s {
+
+  top: -800px;
+  left: 425px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#stage4 {
+ position: relative;
+ background-color: #000033;
+ margin: auto;
+ width: 800px;
+ height: 600px;
+ overflow: hidden;
+}
+
+.platform4 {
+  position: relative;
+  height: 2px;
+  background-color: #600;
+}
+.onPlatform4 {
+  background-color: green;
+}
+#ground4 {
+  top: 100px;
+  left: 20px;
+  width: 150px;
+  z-index: 5;
+}
+#plat1d {
+  top: 150px;
+  left: 255px;
+  width: 170px;
+  z-index: 5;
+}
+#plat2d {
+  top: 220px;
+  left: 550px;
+  width: 160px;
+  z-index: 5;
+}
+#plat3d {
+  top: 500px;
+  left: 700px;
+  width: 100px;
+  z-index: 5;
+}
+
+#plat4d {
+  top: 450px;
+  left: 570px;
+  width: 100px;
+  z-index: 5;
+}
+
+#plat5d {
+  top: 420px;
+  left: 410px;
+  width: 100px;
+  z-index: 5;
+}
+
+#plat6d {
+  top: 390px;
+  left: 250px;
+  width: 100px;
+  z-index: 5;
+}
+
+
+#goal4 {
+  position: absolute;
+  top: 450px;
+  left: 160px;
+  width: 25px;
+  height: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+  z-index: 5;
+
+}
+
+#lava4 {
+  position: absolute;
+  background-image: url("img/lava.png");
+  width: 800px;
+  height: 45px;
+  top: 555px;
+
+}
+
+
+
+
+
+#lavablocks4a {
+  position: relative;
+  top: -5px;
+  left: 170px;
+}
+
+#lavablocks4b {
+
+  top: 90px;
+  left: 170px;
+}
+
+#lavablocks4c {
+
+  top: 90px;
+  left: 170px;
+}
+
+#lavablocks4d {
+
+  top: -40px;
+  left: 280px;
+}
+
+#lavablocks4e {
+
+  top: 0px;
+  left: 430px;
+}
+
+#lavablocks4f {
+
+  top: 0px;
+  left: 430px;
+}
+
+#lavablocks4g {
+
+  top: -90px;
+  left: 475px;
+}
+
+#lavablocks4h {
+
+  top: -235px;
+  left: 430px;
+}
+
+#lavablocks4i {
+
+  top: -120px;
+  left: 750px;
+}
+
+#lavablocks4j {
+
+  top: -120px;
+  left: 750px;
+}
+
+
+#lavablocks4k {
+
+  top: -120px;
+  left: 750px;
+}
+
+
+#lavablocks4l {
+
+  top: -120px;
+  left: 750px;
+}
+
+#lavablocks4m {
+
+  top: -140px;
+  left: 570px;
+}
+
+#lavablocks4n {
+
+  top: -212px;
+  left: 430px;
+}
+
+#lavablocks4o {
+
+  top: -285px;
+  left: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
